@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(74, 81, 5);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+form {
+  border: 5px solid rgb(164, 129, 84);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  color: bisque;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#number {
+  width: 80%;
+  background-color: bisque;
+  border: 3px solid rgb(148, 119, 85);
+  border-radius: 2px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(82, 64, 43);
+}
+#convert-btn {
+  display: block;
+  padding: 10px;
+  background-color: rgb(234, 128, 0);
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  margin: 20px auto;
+  color: bisque;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#output {
+  width: 100%;
+  height: 70px;
+  border: 5px solid rgb(164, 129, 84);
+  line-height: 70px;
+  color: bisque;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.warning {
+  background-color: rgb(151, 84, 84);
+}
